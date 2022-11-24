@@ -1,0 +1,128 @@
+html{scroll-behavior: smooth;}
+body{margin: 0px;}
+h1,h2,h3,h4,h5,h6{font-family: 'Montserrat', sans-serif;}
+p,a,li,td{
+    font-size: 1.25em;
+    font-family: 'Roboto', sans-serif;
+}
+details{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.details{ 
+    margin-left: 8%;
+    margin-top: 15;
+}
+.details h1{
+    font-size: 50px;
+    color:rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.images{
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 75%;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+
+}
+.image:hover .girl1{
+    bottom: 45%;
+}
+span{
+    color:#2a0740;
+}
+
+
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar img{
+    height: 60px;
+}
+.masthead{
+    width: 100%;
+    height: 75vh;
+    align-items: center;
+    background-image: url('./img/image1.png');
+    background-size: cover;
+}
+.masthead div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.masthead h1{
+    color: #fff;
+    font-size: 3.5em;
+}
+.add-record{
+    padding: 5%;
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.add-record h2{
+    margin-bottom: 15px;
+}
+.add-record a{
+    background-color: #004b87;;
+    color: #fff;
+    padding: 15px 35px;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all .25s linear;
+}
+.add-record a:hover{
+    background-color: rgba(114, 180, 234, 0.589);
+    color: #004b87;
+    border: solid 2px #004b87;
+}
+.view-records{
+    padding: 5%;
+}
+.add-masthead{
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    background: linear-gradient(315deg, #2a0740 0%, #afb3ad 100%)
+}
+.add-masthead div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-masthead h1{
+    color: #fff;
+    font-size: 3.5em;
+}
+.add-form{
+    padding: 5% 10%;
+}
+#userForm{
+    margin: auto;
+}
+footer{
+    background-color: #0e0e0e;;
+    color: #fff;
+    text-align: center;
+    padding: 5%;
+}
